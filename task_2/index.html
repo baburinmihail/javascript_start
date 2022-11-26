@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>JS-Start. 2 задача</title>
+    <link rel="stylesheet" type="text/css" href="task2_css.css">
+</head>
+<body>
+<div class="block-1">
+    <p id="consoleLog">console.log</p>
+    <code>
+        console.log('Текст в консоли');
+    </code>
+</div>
+<div class="block-2">
+    <p id="alert_mesage">Alert()</p>
+    <code>
+        alert('собственно сам alert')
+    </code>
+</div>
+<div class="block-3">
+    <p id="prompt_mesage">Prompt()</p>
+    <!--Сделал красиво-->
+    <code>
+        const name = prompt('Введите свое имя');</p>
+        if (name) {</p>
+        document.querySelector('#prompt_mesage').innerHTML = `<b>${name}</b>, добро пожаловать на сайт!`;</p>
+        } else {</p>
+        document.querySelector('#prompt_mesage').innerHTML = '<b>Гость</b>, добро пожаловать на сайт!';</p>
+        }
+    </code>
+</div>
+<button class="button">Кнопка без функция(1 балл на дороге не валяется</button>
+<script src="script.js"></script>
+</body>
+</html>

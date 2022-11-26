@@ -1,0 +1,26 @@
+body{
+    background: rgba(92, 24, 24, 0.71);
+    font-size: 18px;
+    color: #1a0303;
+}
+
+main{
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.label , .p{
+    color: white;
+
+}
+
+.button {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}

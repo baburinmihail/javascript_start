@@ -1,0 +1,30 @@
+body{
+    background: rgba(92, 24, 24, 0.71);
+    font-family: "Times New Roman";
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.79);
+}
+
+.block-1{
+    background-color: cadetblue;
+}
+.block-2{
+    background-color: #afe9ec;
+}
+
+.block-3{
+    background-color: #bfe7e7;
+    margin-bottom:  50px;
+}
+
+.button {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
